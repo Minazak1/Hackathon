@@ -11,3 +11,17 @@ body {
   justify-content: flex-end;
   align-items: flex-start;
 }
+#submit{
+  border-radius: 100px;
+  outline: transparent;
+  background-color: white;
+  box-shadow: transparent;
+
+}
+#inputan{
+  border-radius: 100px;
+  outline: transparent;
+}
+#equation{
+  color: white;
+}
