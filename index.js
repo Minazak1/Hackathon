@@ -31,8 +31,10 @@ function normalMathProblemGenerator() {
     if (answer%2 !=0)
     normalMathProblemGenerator();
     }
-    console.log(answer);
+
     }
     normalMathProblemGenerator();
     document.getElementById("equation").innerHTML = c
+
+
 
