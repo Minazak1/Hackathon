@@ -47,6 +47,7 @@ document.getElementById("submit").addEventListener("click", function (){
     else if(input != answer){
         alert("Try Again!")
     }
+    
 
 })
 }
