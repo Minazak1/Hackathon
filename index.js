@@ -52,3 +52,11 @@ document.getElementById("submit").addEventListener("click", function (){
 
 })
 }
+var x = document.getElementById("AlarmAudio");
+
+function playAudio(){
+    x.play();
+}
+function pauseAudio(){
+    x.pause();
+}
