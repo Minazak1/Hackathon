@@ -6,11 +6,6 @@ body {
   justify-content: flex-start;
   flex-direction: column;
 }
-.loner {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-}
 #submit{
   border-radius: 100px;
   outline: transparent;
