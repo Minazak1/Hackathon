@@ -17,7 +17,9 @@ function normalMathProblemGenerator() {
     randomElement = arr[Math.floor(Math.random() * arr.length)];
     var a = Math.floor(Math.random() * 100) + 1;
     var b = Math.floor(Math.random() * 10) + 1;
+
     c = (a + randomElement + b);
+
     console.log(a + randomElement + b);
     if(randomElement == "+")
     answer = (a+b);
@@ -34,3 +36,4 @@ function normalMathProblemGenerator() {
     console.log(answer);
     }
     document.getElementById("equation").innerHTML 
+
