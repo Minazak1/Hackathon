@@ -31,7 +31,7 @@ function normalMathProblemGenerator() {
     if (answer%2 !=0)
     normalMathProblemGenerator();
     }
-
+    // console.log(answer)
     }
     normalMathProblemGenerator();
     document.getElementById("equation").innerHTML = c
@@ -47,7 +47,7 @@ document.getElementById("submit").addEventListener("click", function (){
     else if(input != answer){
         alert("Try Again!")
     }
-    
+
 
 })
 }
