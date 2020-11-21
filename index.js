@@ -42,6 +42,8 @@ document.getElementById("submit").addEventListener("click", function (){
     
     if (input == answer){
         alert("Good Morning")
+        window.location.reload(false);
     }
+
 })
 }
