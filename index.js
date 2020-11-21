@@ -36,5 +36,12 @@ function normalMathProblemGenerator() {
     normalMathProblemGenerator();
     document.getElementById("equation").innerHTML = c
 
-
-
+    window.onload=function(){
+document.getElementById("submit").addEventListener("click", function (){
+    var input = document.getElementById("inputan").value
+    
+    if (input == answer){
+        alert("Good Morning")
+    }
+})
+}
