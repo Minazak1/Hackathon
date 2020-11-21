@@ -44,6 +44,9 @@ document.getElementById("submit").addEventListener("click", function (){
         alert("Good Morning")
         window.location.reload(false);
     }
+    else if(input != answer){
+        alert("Try Again!")
+    }
 
 })
 }
