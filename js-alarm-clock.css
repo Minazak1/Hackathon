@@ -13,11 +13,12 @@
   margin: 0 auto;
   max-width: 350px;
   padding: 10px;
-  background: #000;
+  background-color: #6c7a77;
+  background-image: linear-gradient(to right, grey, #708984, #6c7a77, #505050);
   text-align: center;
 }
 #ctime .header {
-  color: #c61d1d;
+  color: black;
 }
 #ctime .square {
   display: inline-block;
@@ -41,7 +42,8 @@
   margin: 0 auto;
   max-width: 350px;
   padding: 10px;
-  background: #f2f2f2;
+  background-color: #6c7a77;
+  background-image: linear-gradient(to right, grey, #708984, #6c7a77, #505050);
   white-space: nowrap;
 }
 #tpick-h, #tpick-m, #tpick-s {
