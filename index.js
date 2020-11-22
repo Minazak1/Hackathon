@@ -60,3 +60,26 @@ function playAudio(){
 function pauseAudio(){
     x.pause();
 }
+<!-- Color Changing background function by Constare if issues-->
+function pressed(){
+    var text = document.getElementById("inputan").value;
+    if (text === "red"){
+        document.getElementById("color").style.backgroundColor = "red";
+    } else if (text === "blue") {
+        document.getElementById("color").style.backgroundColor = "blue";
+    } else if (text === "green") {
+        document.getElementById("color").style.backgroundColor = "green";
+    } else if (text === "yellow") {
+        document.getElementById("color").style.backgroundColor = "yellow";
+    } else if (text === "purple") {
+        document.getElementById("color").style.backgroundColor = "purple";
+    } else if (text === "grey") {
+        document.getElementById("color").style.backgroundColor = "grey";
+    } else if (text === "black") {
+        document.getElementById("color").style.backgroundColor = "black";
+    } else if (text === "pink") {
+        document.getElementById("color").style.backgroundColor = "pink";
+    } else if (text === "teal" || "cyan"){
+        document.getElementById("color").style.backgroundColor = "cyan";
+    }
+}
