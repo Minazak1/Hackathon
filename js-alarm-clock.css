@@ -16,6 +16,7 @@
   background-color: #6c7a77;
   background-image: linear-gradient(to right, grey, #708984, #6c7a77, #505050);
   text-align: center;
+  background: transparent;
 }
 #ctime .header {
   color: black;
@@ -45,6 +46,7 @@
   background-color: #6c7a77;
   background-image: linear-gradient(to right, grey, #708984, #6c7a77, #505050);
   white-space: nowrap;
+  background: transparent;
 }
 #tpick-h, #tpick-m, #tpick-s {
   display: inline-block;
