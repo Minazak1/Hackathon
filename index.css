@@ -1,22 +1,13 @@
 body {
   background-color: grey;
 }
-.logo {
+.parent {
   display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
+  justify-content: center;
 }
-#submit{
-  border-radius: 100px;
-  outline: transparent;
-  background-color: white;
-  box-shadow: transparent;
-
-}
-#inputan{
-  border-radius: 100px;
-  outline: transparent;
-}
-#equation{
-  color: white;
+.daddy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 350px;
 }
