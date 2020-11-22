@@ -45,7 +45,6 @@ document.getElementById("submit").addEventListener("click", function (){
         window.location.reload(true);
         normalMathProblemGenerator()
         document.getElementById("equation").innerHTML = c
-        ac.sound.pause();
     }
     else if(input != answer){
         alert("Try Again!")
@@ -95,9 +94,4 @@ function pressed(){
     } else if (text === "text teal"){
         document.getElementById("color").style.color = "cyan";   
 }
-}
-window.onload=function(){
-document.getElementById("todo").addEventListener("click", function (){
-    location.href = "todo.html"
-})
 }

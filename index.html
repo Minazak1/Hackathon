@@ -12,22 +12,11 @@
     <div class="parent" id="color1">
         <p1 id="equation">equation</p1>
         <input id="inputan" type="text">
-        <script src="index.js"></script>
         <div class="button">
         <button id="submit" onclick="pressed()">submit</button>
         </div>
     </div>
-    <!-- Google Fonts crap below-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <!-- Google Fonts crap above ^-->    
-    <!-- <div class="logo">
-    <img src="test.png" width="30" height="30">
-    <img src="work.png" width="30" height="30">        
-    <ion-icon name="logo-github"></ion-icon> 
-        <audio id="AlarmAudio">https://www.youtube.com/watch?v=iNpXCzaWW1s</audio>
-        <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script> -->
-    
+        <audio id="AlarmAudio">https://www.youtube.com/watch?v=iNpXCzaWW1s</audio>   
     </body>
     <head>
         <title>
@@ -71,7 +60,12 @@
           <source src="wake-up-sound.mp3" type="audio/mp3">
         </audio>
 
-        <button id="todo">ToDo List</button>
+
+        <form method="get" action="todo.html">
+        <button id="todo"  type="submit">ToDo List</button>
+        </form>
+        
+        <script src="index.js"></script>
       </body>
 
 </html>
