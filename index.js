@@ -52,15 +52,12 @@ document.getElementById("submit").addEventListener("click", function (){
 
 })
 }
-var x = document.getElementById("AlarmAudio");
 
-function playAudio(){
-    x.play();
-}
-function pauseAudio(){
-    x.pause();
-}
-<!-- Color Changing background function by Constare if issues-->
+
+
+
+
+//Color Changing background function by Constare if issues
 function pressed(){
     var text = document.getElementById("inputan").value;
     /* background color change */if (text === "background red"){
