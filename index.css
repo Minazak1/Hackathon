@@ -1,7 +1,7 @@
 
 body {
     background-color: grey;
-    background-images: linear-gradient(to right, grey, #708984, #6c7a77, #505050);
+    background-image: linear-gradient(to right, grey, #708984, #6c7a77, #505050);
   }
   .parent {
     display: flex;
