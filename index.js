@@ -45,6 +45,7 @@ document.getElementById("submit").addEventListener("click", function (){
         window.location.reload(true);
         normalMathProblemGenerator()
         document.getElementById("equation").innerHTML = c
+        ac.sound.pause();
     }
     else if(input != answer){
         alert("Try Again!")
