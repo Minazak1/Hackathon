@@ -1,0 +1,46 @@
+
+body {
+    background-color: grey;
+    background-images: linear-gradient(to right, grey, #708984, #6c7a77, #505050);
+  }
+  .parent {
+    display: flex;
+    justify-content: center;
+  }
+  .daddy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    padding-bottom: 50px;
+  }
+  button {
+    display: block;
+    width: 70px;
+    height: 30px;
+    border-radius: 18px;
+    background-color: #1c89ff;
+    border: solid 1px transparent;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+  }
+  button:hover {
+    background-color: transparent;
+    border-color: #fff;
+    transition: all 0.1s ease-in-out;
+  }
+  header {
+    font-size: 45px;
+    font-family: "Open Sans";
+  }
+  p1 {
+    font-size: 25px;
+  }
+  input {
+    border-radius: 30px;
+    border-color: black;
+  }
+  /*sneak*/
