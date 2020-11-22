@@ -96,3 +96,8 @@ function pressed(){
         document.getElementById("color").style.color = "cyan";   
 }
 }
+window.onload=function(){
+document.getElementById("todo").addEventListener("click", function (){
+    location.href = "todo.html"
+})
+}
