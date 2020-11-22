@@ -54,10 +54,6 @@ document.getElementById("submit").addEventListener("click", function (){
 })
 }
 
-
-
-
-
 //Color Changing background function by Constare if issues
 function pressed(){
     var text = document.getElementById("inputan").value;
