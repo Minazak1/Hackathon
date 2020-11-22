@@ -95,7 +95,7 @@ var ac = {
     ac.alarm = null;
     ac.thr.disabled = false;
     ac.thm.disabled = false;
-    ac.ths.disabled = true;
+    ac.ths.disabled = false;
     ac.tset.disabled = false;
     ac.treset.disabled = true;
   }
